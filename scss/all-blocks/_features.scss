@@ -1,0 +1,87 @@
+.features {
+    padding: 65px 0 90px 0;
+    &__span {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 170%;
+        color: #FFA149;
+        margin-bottom: 4px;
+        text-transform: uppercase;
+    }
+
+    &__heading {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 170%;
+        color: #222222;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    &__paragraph {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 170%;
+        color: #555555;
+        margin: 0;
+        margin-bottom: 64px;
+        width: 554px;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item {
+        padding: 43px 21px 42px 36px;
+        width: 380px;
+    }
+
+    &__item:nth-child(1), &__item:nth-child(2) {
+        border-right: 0.5px solid #DDDDDD;
+    }
+
+    &__item:nth-child(3) {
+        border-bottom: 0.5px solid #DDDDDD;
+    }
+
+    &__item:nth-child(4), &__item:nth-child(5) {
+        border-top: 0.5px solid #DDDDDD;
+        border-right: 0.5px solid #DDDDDD;
+    }
+
+    &__img {
+        margin-bottom: 24px;
+    }
+
+    &__item-heading {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 170%;
+        color: #333333;
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    &__item-paragraph {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 170%;
+        color: #555555;
+        margin: 0;
+    }
+}
