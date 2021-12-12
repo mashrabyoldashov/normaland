@@ -1,0 +1,26 @@
+.site-nav{
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: 58px;
+
+    
+    &__list{
+        margin: 0 -30px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__item{
+        margin: 0 30px;
+    }
+
+    &__link{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 170%;
+        color: #333333;
+    }
+}
