@@ -1,0 +1,115 @@
+.team {
+    padding: 90px 0;
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 365px;
+        min-height: 420px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    &__item + &__item {
+        margin-left: 10px;
+    }
+
+    &__item:nth-child(1) {
+        background-image: url('../img/mashrab.jpg');
+    }
+    &__item:nth-child(2) {
+        background-image: url('../img/tohir.jpg');
+    }
+    &__item:nth-child(3) {
+        background-image: url('../img/alimardon.jpg');
+    }
+
+    &__text {
+        display: inline-block;
+        padding: 20px 95px;
+        background-color: white;
+        border: 0.5px solid #DDDDDD;
+        transform: translate(0, 370px);
+    }
+
+    &__heading {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 170%;
+        text-align: center;
+        color: #333333;
+        margin: 0;
+        margin-bottom: 2px;
+    }
+
+    &__paragraph {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 170%;
+        text-align: center;
+        color: #333333;
+        margin: 0;
+    }
+}
+
+@media only screen  and (max-width: 890px) {
+    .team {
+        &__item {
+            width: 218px;
+            min-height: 270px;
+        }
+
+        &__text {
+            padding: 12px 52px;
+            transform: translate(0, 235px);
+        }
+
+        &__heading {
+            font-size: 14px;
+        }
+
+        &__paragraph {
+            font-size: 10px;
+        }
+    }
+}
+
+@media only screen  and (max-width: 700px) {
+    .team {
+        &__list {
+            flex-direction: column;
+            margin-top: -76px;
+            justify-content: center;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        &__item {
+            width: 312px;
+            min-height: 260px;
+            margin: 0 auto;
+            margin-top: 76px;
+        }
+
+        &__item + &__item {
+            margin-left: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &__text {
+            padding: 14px 78px;
+        }
+    }
+}

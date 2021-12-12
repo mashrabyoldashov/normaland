@@ -4,6 +4,8 @@
     &__text {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-bottom: 64px;
     }
 
     &__heading {
@@ -14,7 +16,6 @@
         font-size: 34px;
         line-height: 170%;
         color: #222222;
-        margin-bottom: 64px;
     }
 
     &__list {
@@ -88,12 +89,16 @@
 .a {
     text-decoration: none;
     display: inline-block;
-    padding: 6px 16px;
+    padding: 8px 16px;
   }
 
   .a:hover {
     background-color: rgb(255, 0, 0);
     color: black;
+  }
+
+  .a:active {
+    background-color: #f1f1f1;
   }
 
   .previous {
@@ -109,3 +114,40 @@
   .round {
     border-radius: 50%;
   }
+
+
+  @media only screen and (max-width: 840px) {
+    .test {
+
+        &__span {
+            font-size: 16px;
+        }
+
+        &__heading {
+            font-size: 28px;
+        }
+    }
+}
+
+  @media only screen  and (max-width: 375px) {
+    .test {
+        &__span {
+            font-size: 14px;
+        }
+
+        &__heading {
+            font-size: 20px;
+        }
+
+        &__item {
+            min-width: 310px;
+        }
+    }
+
+    .a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 2px 8px;
+    }
+
+}
