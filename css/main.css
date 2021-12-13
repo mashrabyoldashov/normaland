@@ -955,4 +955,133 @@ img {
     padding: 14px 78px;
   }
 }
+
+.client__hero {
+  margin: 0;
+  padding: 0;
+}
+
+.client__desc {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 170%;
+  color: #FFA149;
+}
+
+.client__heading {
+  max-width: 628px;
+  min-height: 58px;
+  margin-top: 4px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 170%;
+  color: #222222;
+}
+
+.client__list {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 180px;
+}
+
+.client__link {
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 840px) {
+  .client__item {
+    margin-top: 50px;
+  }
+  .client__img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 362px) {
+  .client__heading {
+    font-size: 30px;
+    line-height: 130%;
+  }
+  .client__list {
+    margin-top: 29px;
+  }
+  .client__item {
+    margin-top: 20px;
+  }
+}
+
+.ready__heading {
+  min-height: 154px;
+  margin: 0;
+  min-height: 154px;
+  font-weight: 800;
+  font-size: 48px;
+  text-align: center;
+  line-height: 160%;
+  color: #222222;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  min-height: 100px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.input {
+  max-width: 259px;
+  padding: 22px 32px;
+  margin-top: 19px;
+  border: none;
+}
+
+.celect {
+  max-width: 259px;
+  padding: 22px 32px;
+  border: none;
+  color: #222222;
+}
+
+.btnn {
+  padding: 22px 32px;
+}
+
+@media only screen and (max-width: 650px) {
+  .ready__heading {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 140%;
+    text-align: center;
+  }
+  .input {
+    display: none;
+  }
+  .celect {
+    display: none;
+  }
+  .btnn {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
